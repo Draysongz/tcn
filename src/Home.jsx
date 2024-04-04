@@ -8,9 +8,10 @@ import { CopyIcon, CheckIcon } from '@chakra-ui/icons';
 
 
 const data = [
-  { name: 'LP', value: 75 },
-  { name: 'Marketing', value: 25 },
+  { name: 'LP', value: 45 },
+  { name: 'Presale', value: 45 },
   { name: 'CEX', value: 5 },
+  {name: 'Community and team', value: 5},
 ];
 const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
 const RADIAN = Math.PI / 180;
