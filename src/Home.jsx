@@ -90,7 +90,7 @@ const Home = () => {
      </Flex>
 
      {/* mobile heading */}
-     
+
 
      {/* Hero */}
      <Flex id='home' color={'white'} justifyContent={'space-between'} alignItems={'center'}
@@ -289,7 +289,7 @@ const Home = () => {
         <Heading letterSpacing={2} color={'white'} fontSize={'50px'}>TOKENOMICS</Heading>
 
         <Flex direction={'column'} gap={5} fontSize={'2xl'} color={'white'}> 
-          <Text>Total Supply: </Text>
+          <Text>Total Supply: 10.000.000 </Text>
           <Text>LP : 75%</Text>
           <Text>Marketing: 25%</Text>
           <Text>CEX : 5%</Text>
