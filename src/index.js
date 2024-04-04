@@ -3,11 +3,25 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {ChakraProvider} from '@chakra-ui/react'
+import { extendTheme } from '@chakra-ui/react';
+import '@fontsource/pangolin'
+import '@fontsource/passion-one';
+
+
+const theme = extendTheme({
+  fonts: {
+    heading: `'Passion One', system-ui`,
+    body: `'Pangolin',  cursive`,
+  },
+})
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <ChakraProvider theme={theme}>
     <App />
+    </ChakraProvider>
   </React.StrictMode>
 );
 
