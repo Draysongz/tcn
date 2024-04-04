@@ -290,9 +290,10 @@ const Home = () => {
 
         <Flex direction={'column'} gap={5} fontSize={'2xl'} color={'white'}> 
           <Text>Total Supply: 10.000.000 </Text>
-          <Text>LP : 75%</Text>
-          <Text>Marketing: 25%</Text>
+          <Text>Presale : 45%</Text>
+          <Text>LP : 45%</Text>
           <Text>CEX : 5%</Text>
+          <Text>Community and Team : 5% </Text>
           <InputGroup>
           <Input w={['70vw', '70vw', '25vw', '25vw']}type='text' color="white" value={'contract address'} disabled />
           <InputRightElement>
